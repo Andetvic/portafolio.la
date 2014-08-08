@@ -1,93 +1,100 @@
 <!DOCTYPE html>
+
 <html lang="es">
     <head>
-        <title>Portafolio.la</title>
+        <title>Mi portafolio online</title>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="../static/css/normalize.css">
-        <link rel="stylesheet" href="../static/css/estilos.css">
+        <link rel="stylesheet" href="../static/css/normalize.css"/>
+        <link rel="stylesheet" href="../static/css/estilos.css"/>
     </head>
     <body>
         <header id="yo" class="Header">
             <nav class="MainMenu">
                 <ul class="MainMenu-list">
                     <li class="MainMenu-item">
-                        <a class="MainMenu-link" href="#yo">Yo</a>
+                        <a class="MainMenu-link" href="#yo">yo</a>
                     </li>
                     <li class="MainMenu-item">
-                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                        <a class="MainMenu-link" href="#perfil">perfil</a>
                     </li>
                     <li class="MainMenu-item">
-                        <a class="MainMenu-link" href="#trabajo">Trabajo</a>
+                        <a class="MainMenu-link" href="#trabajo">Mi trabajo</a>
                     </li>
                     <li class="MainMenu-item">
-                        <a class="MainMenu-link" href="#contacto">Contacto</a>
+                        <a class="MainMenu-link" href="#contacto">Contáctame</a>
                     </li>
                 </ul>
             </nav>
+
             <figure class="Header-imageContainer">
-                <img src="avatar.jpg" alt="Imagen personal" class="Header-image"/>
-                <figcaption class="Header-imageDescription">
-                    <a class="Header-link" href="http://twitter.com/leonidasesteban/" target="_black">@LeonidasEsteban</a>
+                <img src="../static/images/avatar.jpg" alt="@LeonidasEsteban" class="Header-image"/>
+                <figcaption class="Header-description">
+                    <a href="http://twitter.com/leonidasesteban/" target="_blank" class="Header-link">@Leonidasesteban</a>
                 </figcaption>
+                <p class="Header-name">Leonidas Esteban</p>
             </figure>
-            <p class="Header-name" >Leonidas Esteban</p>
         </header>
         <section id="perfil" class="Profile">
-            <h2 class="Profile-title u-title">Mi perfil</h2>
-            <p class="Profile-description">
-                Hola! si llegaste hasta aqui puedes ver mi portafolio y contactarme
-            </p>
-            <a class="Profile-link" href="http://twitter.com/leonidasesteban/" target="_blank">@LeonidasEsteban</a>
-            <a class="Profile-link" href="http://facebook.com/leonidasesteban/" target="_blank">Leonidas Esteban</a>
-            <a class="Profile-link" href="http://github.com/leonidasesteban/" target="_blank">LeonidasEsteban</a>
+            <div class="u-containerDefault">
+                <h2 class="Profile-title u-title">Mi Perfil</h2>
+
+                <p class="Profile-description">Puedes visitar mis redes sociales si quieres seguirme</p>
+
+                <a class="Profile-link" href="http://twitter.com/leonidasesteban/">@LeonidasEsteban</a>
+
+                <a class="Profile-link" href="http://facebook.com/leonidasesteban/">LeonidasEsteban</a>
+
+                <a class="Profile-link" href="http://github.com/leonidasesteban/">LeonidasEsteban</a>
+            </div>
         </section>
         <section id="trabajo" class="Work">
-            <h2 class="Work-title u-title">Mi trabajo</h2>
+            <div class="u-containerDefault">
+                <h2 class="Work-title u-title">Mi Trabajo</h2>
+            </div>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    <a href="#">
+                        <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                    </a>
+                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
+
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
                 </figure>
             </article>
             <article class="Work-item">
                 <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
-                </figure>
-            </article>
-            <article class="Work-item">
-                <figure class="Work-imageContainer">
-                    <img class="Work-image" src="mejorandola.jpg" alt="Es la descripcion de mi imagen">
-                    <figcaption class="Work-description">Website de mejorando.la</figcaption>
+                    <img class="Work-image" src="../static/images/proyecto.jpg" alt="Mejorando.la"/>
+                    <figcaption class="Work-description">Sitio de Mejorando.la</figcaption>
                 </figure>
             </article>
         </section>
         <footer id="contacto" class="Footer">
-            <h3 class="Footer-title">Contacto</h3>
-            <p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
-            <form class="Footer-form">
-                <input class="Footer-formInput"  type="text" placeholder="Nombre"/>
-                <input class="Footer-formInput" type="email" placeholder="Email"/>
-                <textarea class="Footer-textarea" placeholder="Motivo"></textarea>
-                <button type="submit" class="Footer-button"> Contactarme </button>
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si quieres contratarme puedes escribirme en este pequeño formulario</p>
+            </div>
+            <form action="" class="Footer-form">
+                <input type="text" placeholder="Nombre" class="Footer-input">
+                <input type="email" placeholder="Email" class="Footer-input">
+                <textarea placeholder="motivo" class="Footer-textarea"></textarea>
+                <button type="submit" class="Footer-button">Contactarme</button>
             </form>
         </footer>
     </body>
